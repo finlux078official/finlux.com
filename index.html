@@ -1,0 +1,228 @@
+<!DOCTYPE html> 
+ <html lang="en"> 
+ <head> 
+     <meta charset="UTF-8"> 
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  
+     <!-- Favicon --> 
+     <link rel="shortcut icon" href="https://img.icons8.com/windows/32/speaker-deck.png" type="image/x-icon"> 
+      
+     <!-- Homepage Title --> 
+     <title>InSider</title> 
+  
+     <!-- Custom Css File Attached --> 
+     <link rel="stylesheet" href="styles.css"> 
+  
+     <!-- Bootstrap CDN Link --> 
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"> 
+ </head> 
+ <body> 
+  
+     <!-- TOP NAVBAR OF THE PAGE --> 
+     <div class="top-nav"> 
+  
+         <!-- Hamburger Menu --> 
+         <div class="hamburger-menu" id="hamburger-menu"> 
+             <div class="bars-div"> 
+                 <div class="bar"></div> 
+                 <div class="bar"></div> 
+                 <div class="bar"></div> 
+             </div> 
+             <div class="menu-text">Menu</div> 
+         </div> 
+  
+         <!-- Searchbar --> 
+         <div class="search-container"> 
+             <input type="text" id="search-input" placeholder="Search services..."> 
+         </div> 
+     </div> 
+  
+  
+     <!-- HERO SECTION WITH SLIDER --> 
+     <section class="hero-slider">  
+         <div class="sliderWrap"> 
+             <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1744&q=80" id="slide" alt="Slider Image"> 
+           </div> 
+     </section> 
+  
+      
+     <!-- SIDEBAR MENU --> 
+     <div class="sidebar" id="sidebar"> 
+         <div class="close-button" id="close-button"> 
+             <span>&times;</span> 
+         </div> 
+         <ul> 
+             <li><a href="./index.html" id="about-link">Home</a></li> 
+             <li><a href="./about.html" id="about-link">About</a></li> 
+             <li><a href="./services.html" id="about-link">Services</a></li>  
+             <li><a href="internship.html" id="about-link">Internship</a></li> 
+         </ul> 
+  
+         <!-- <div class="search-container"> 
+             <input type="text" id="search-input" placeholder="Search services..."> 
+         </div> --> 
+  
+  
+         <!-- ADDING CALL NOW BUTTON WITH CALLING FEATURE --> 
+         <a href="mailto:insider321a@gmail.com">
+            <button class="call-now"> 
+                Contact Us 
+            </button> 
+         </a>
+     </div> 
+  
+      
+     <!-- SERVICES CARDS SECTION --> 
+     <section class="services" id="service-section"> 
+         <h1 class="service-title">Services</h1> 
+         <div class="card-container"> 
+             <div class="service-card"> 
+                 <img src="https://cdn-icons-png.flaticon.com/512/7991/7991055.png" alt="service-logo"/> 
+                 <h3>Front-End Development</h3> 
+                 <p>Elevate your online presence with our front-end development expertise. We specialize in crafting visually captivating and highly functional user interfaces that leave a lasting impression on your website visitors..</p> 
+             </div> 
+  
+             <div class="service-card"> 
+                 <img src="https://cdn-icons-png.flaticon.com/512/1055/1055666.png" alt="service-logo"/> 
+                 <h3>Back-End Development</h3> 
+                 <p>Unlock the full potential of your website with our expert back-end development services. We specialize in creating robust, secure, and efficient server-side solutions that power the functionality of your web applications..</p> 
+             </div> 
+  
+             <div class="service-card"> 
+                 <img src="https://cdn-icons-png.flaticon.com/512/2779/2779775.png" alt="service-logo"/> 
+                 <h3>Graphic Design</h3> 
+                 <p>Elevate your brand and captivate your audience with our expert graphic design services. We specialize in crafting visually stunning and impactful designs that leave a lasting impression.</p> 
+             </div> 
+  
+             <div class="service-card"> 
+                 <img src="https://cdn-icons-png.flaticon.com/512/2645/2645725.png" alt="service-logo"/> 
+                 <h3>App Dvelopment</h3> 
+                 <p>Turn your app idea into reality with our professional app development services. We specialize in creating custom, user-friendly, and feature-rich mobile applications that cater to your unique needs..</p> 
+             </div> 
+  
+             <div class="service-card"> 
+                 <img src="https://cdn-icons-png.flaticon.com/512/2606/2606008.png" alt="service-logo"/> 
+                 <h3>2D & 3D Animations</h3> 
+                 <p>Unlock the power of visual storytelling with our expert 2D and 3D animation services. We specialize in bringing ideas to life through captivating and immersive animations that engage, entertain, and educate..</p> 
+             </div> 
+  
+             <div class="service-card"> 
+                 <img src="https://cdn-icons-png.flaticon.com/512/2886/2886875.png" alt="service-logo"/> 
+                 <h3>Video Editing</h3> 
+                 <p>Transform your raw footage into polished, captivating videos with our expert video editing services. We specialize in crafting visually engaging content that tells your story and captures your audience's attention..</p> 
+             </div> 
+         </div> 
+     </section> 
+  
+  
+     <!-- TESTIMONIALS SECTION --> 
+     <section class="testimonials"> 
+         <h1 class="testimonial-title">Testimonial</h1> 
+         <div class="card-holder"> 
+             <div class="testimonial-card active"> 
+                 <div class="testinomial-profile"> 
+                     <div class="testmonial-img-div"> 
+                         <img src="data:image/jpeg;base64,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" alt="testimonial-logo"> 
+                     </div> 
+                     <h4>Abhishek Sharma</h4> 
+                 </div> 
+                 <p>"I'm the digital architect behind the scenes, crafting the code that makes websites work seamlessly. From databases to server logic, I bring functionality to life, ensuring your online experience runs smoothly. Let's turn your ideas into digital reality!"</p> 
+             </div> 
+  
+  
+             <div class="testimonial-card active"> 
+                 <div class="testinomial-profile"> 
+                     <div class="testmonial-img-div"> 
+                         <img src="https://media.istockphoto.com/id/1181196036/photo/confident-smiling-indian-young-woman-professional-student-customer-saleswoman-looking-at.jpg?s=1024x1024&w=is&k=20&c=XbBQN856qy0iHgejz_aaqx27o5j_Nm-ycicT_Rw3hgU=" alt="testimonial-logo"> 
+                     </div> 
+                     <h4>Prachi Verma</h4> 
+                 </div> 
+                 <p>"I'm a frontend web developer with a passion for crafting stunning user interfaces. I bring designs to life, creating engaging and responsive websites that captivate audiences. Let's make your online presence visually appealing and user-friendly!"</p> 
+             </div> 
+  
+  
+             <div class="testimonial-card active"> 
+                 <div class="testinomial-profile"> 
+                     <div class="testmonial-img-div"> 
+                         <img src="https://www.doctornearme.co.in/assets/images/thane/dr-devendra-tayde.png" alt="testimonial-logo"> 
+                     </div> 
+                     <h4>Devendra Tayde</h4> 
+                 </div> 
+                 <p>"I'm a video editor, and I transform raw footage into captivating visual stories. With an eye for detail and a passion for storytelling, I bring your ideas to life on screen. Let's turn your vision into a compelling video that resonates with your audience!"</p> 
+             </div> 
+         </div> 
+     </section> 
+       
+  
+  
+  
+     <!-- NEWSLWTTER SECTION --> 
+     <scetion class="newsletter"> 
+         <div class="newsletter-container"> 
+             <div class="newsletter-text"> 
+                 <h3>Subscribe To Our Newsletter</h3> 
+                 <p>Be the first one to know about our discounts, offers abd events</p> 
+             </div> 
+  
+             <form class="newsletter-email-box-wrapper"> 
+                 <div class="email-box"> 
+                     <i class="fa fa-envelope"></i> 
+                     <input type="email" placeholder="Enter your email" required> 
+                 </div> 
+  
+                 <button class="email-box-submit-btn"> 
+                     Subscribe 
+                 </button> 
+             </form> 
+         </div> 
+     </scetion> 
+  
+  
+  
+     <!-- ADDRESS SECTION WITH EMBEDDED GOOGLE MAP --> 
+     <section class="address"> 
+         <address> 
+             <h2>Our Address-</h2> 
+             <p>Pune-Maharastra Bharat</p> 
+         </address> 
+  
+         <!-- Google Map Embed Code --> 
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d242117.70906713605!2d73.69815146206237!3d18.524870612597667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1694793288604!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe> 
+     </section> 
+  
+  
+     <!-- FOOTER OF THE WEBPAGE --> 
+     <footer class="footer"> 
+         <div class="container"> 
+             <div class="footer-content"> 
+                 <div class="footer-logo"> 
+                     <img width="32" height="32" src="https://img.icons8.com/windows/32/speaker-deck.png" alt="footer-logo"/> 
+                     <h3>InSider</h3> 
+                 </div> 
+                 <div class="footer-contact"> 
+                     <h4>Contact Us</h4> 
+                     <p>Email: InSider321a@gmail.com</p> 
+                     <p>Phone: +91 (123) 456-7890</p> 
+                     <p>Address: Pune-Maharastra, Bharat</p> 
+                 </div> 
+                 <div class="footer-social"> 
+                     <h4>Follow Us</h4> 
+                     <ul> 
+                         <li><a href="#"><i class="fab fa-facebook"></i></a></li> 
+                         <li><a href="#"><i class="fab fa-twitter"></i></a></li> 
+                         <li><a href="#"><i class="fab fa-instagram"></i></a></li> 
+                     </ul> 
+                 </div> 
+             </div> 
+         </div> 
+     </footer> 
+  
+  
+     <!-- JAVASCRIPT FILE --> 
+     <script src="script.js"></script> 
+ </body> 
+ </html>
+
+
+ 

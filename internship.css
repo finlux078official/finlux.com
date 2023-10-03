@@ -1,0 +1,62 @@
+* { 
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1692385818702-f7a61998ce24?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDc3fGFldTZyTC1qNmV3fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+.main h1 {
+    color: blueviolet;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.abhi {
+    text-align: center;
+    background-color: rgba(240, 240, 240, 0.9); /* Add a semi-transparent light gray background */
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+.abhi h1 {
+    font-size: 48px;
+    color: #333333;
+    padding: 10px;
+}
+
+.abhi button {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 24px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease; /* Add a smooth transition on hover */
+}
+
+.abhi button:hover {
+    background-color: #0056b3;
+}

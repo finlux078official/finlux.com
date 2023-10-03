@@ -1,0 +1,113 @@
+/* Style for the whole page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style for the service section */
+.services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+/* Style for each service card */
+.service-card {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 5px;
+    max-width: 300px;
+}
+
+.service-card h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.service-card p {
+    font-size: 16px;
+    color: #777;
+}
+
+/* Style for the "View" button */
+.view-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.view-button:hover {
+    background-color: #0056b3;
+}
+
+/* Style for the modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Style for the modal content */
+.modal-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    position: relative;
+}
+
+/* Style for the close button */
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #555;
+}
+
+.close-button:hover {
+    color: #333;
+}
+
+/* Style for the modal content inside the modal */
+#modal-content {
+    text-align: left;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Style for the overlay background when modal is open */
+.modal.active {
+    display: block;
+}
+
+/* Style for responsiveness */
+@media (max-width: 768px) {
+    .services {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-card {
+        margin: 20px 0;
+    }
+}
